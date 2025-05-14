@@ -25,7 +25,7 @@ st.set_page_config(
 
 # Sidebar for navigation
 st.sidebar.title("ElderCare AI")
-st.sidebar.image("assets/pic.png", width=100)
+st.sidebar.image("assets/pict.png", width=100)
 
 # User selection (in a real app, this would be a login system)
 user_id = st.sidebar.selectbox("Select User", [1], format_func=lambda x: f"User {x}")
@@ -654,5 +654,5 @@ elif page == "Agent Chat":
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.markdown("© 2023 ElderCare AI")
-st.sidebar.markdown("Version 1.0.0")
+st.sidebar.markdown("hEALTHCARE AI")
+st.sidebar.markdown("To STAY FREE ANF SAFE")
