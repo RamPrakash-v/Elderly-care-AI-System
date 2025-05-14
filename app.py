@@ -25,7 +25,7 @@ st.set_page_config(
 
 # Sidebar for navigation
 st.sidebar.title("ElderCare AI")
-st.sidebar.image(r"C:\Users\Ram prakash V\OneDrive\Pictures\Screenshots\Screenshot (32).png", width=100)
+st.sidebar.image("assets/pic.png", width=100)
 
 # User selection (in a real app, this would be a login system)
 user_id = st.sidebar.selectbox("Select User", [1], format_func=lambda x: f"User {x}")
